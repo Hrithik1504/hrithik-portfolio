@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Banner Section */
+.banner {
+  height: 100vh;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  text-align: center;
+  color: #fff;
+}
+
+.banner-text h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.banner-text p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.banner-text button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-text button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* About Me Section */
+.about-me {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+}
+
+.about-me h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-me-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-me-image {
+  flex: 1 1 300px;
+  margin-right: 50px;
+}
+
+.about-me-image img {
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-me-text {
+  flex: 1 1 400px;
+}
+
+.about-me-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about-me-text ul {
+  list-style: none;
+}
+
+.about-me-text ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.about-me-text ul li span {
+  flex: 0 0 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Project Section */
+.projects {
+  padding: 80px 0;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.project-image {
+  flex: 1 1 400px;
+  margin-right: 50px;
+}
+
+.project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-text {
+  flex: 1 1 400px;
+}
+
+.project-text h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.project-text button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-text button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Contact Section */
+.contact {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: inline-block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-form label {
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1 1 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+
+footer a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #999;
+}
